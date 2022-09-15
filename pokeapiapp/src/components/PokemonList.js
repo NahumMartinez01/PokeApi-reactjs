@@ -2,6 +2,8 @@ import React from 'react'
 import '../style.css'
 const PokemonList = ({pokemon}) => {
     //console.log(pokemon)
+
+    ///Con este componente mostramos los datos de cada pokemon dentro de una card
   return (
     <div className="card mt-5 card-pokemons">
 

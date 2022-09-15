@@ -9,6 +9,10 @@ const Search = ({getPokemon}) => {
 
  const [search,setSearch] = useState([]);
 
+ //realizamos el handlechange en el input para que nos lleve el valor como parametro de la 
+ //funcion getPokemon().
+
+ 
  const handleChange = (e) => {
 
     const {value} = e.target

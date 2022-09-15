@@ -4,7 +4,7 @@ import '../style.css'
 const CardsPokemon = ({pokemon}) => {
     //console.log(pokemon)
   
-   
+  ////////Con este componente llamaremos al componente que renderizara las cards 
   return (
     <div className='container'>
         <div>

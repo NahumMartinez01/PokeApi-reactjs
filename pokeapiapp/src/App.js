@@ -11,7 +11,8 @@ const App = () => {
   const [pokemon, setPokemon] = useState([]);
   const [cargando, setCargando] = useState(false)
   const [searching, setSearching] = useState(false);
-    
+   
+  ///realizamos una llamada a la api para poder recorrer las url de cada pokemon.
   const fetchPokemons = async () => {
     setTimeout(async() => {
       setCargando(true)
@@ -31,6 +32,7 @@ const App = () => {
       }
     },600) 
   }
+  /////Esta llamada nos servira para realizar la busqueda del pokemon especifico
 
   const getPokemon = async(busqueda) => {
     if(!busqueda){
